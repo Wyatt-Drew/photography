@@ -1,0 +1,25 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .photoWrap {
+    overflow: hidden; 
+    display: block;
+    width: 100%;
+    height: 250px;
+  }
+  
+  .photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the images cover the div without distorting */
+    transition: transform 0.5s ease; /* Smooth transform effect on hover */
+  }
+  
+  .photo:hover {
+    transform: scale(1.1); /* Adds a zoom effect on hover */
+  }
+  

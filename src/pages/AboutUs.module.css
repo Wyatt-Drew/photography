@@ -1,0 +1,64 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .teamPhoto {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .intro {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .videoContainer {
+    margin: 20px 0;
+  }
+  
+  .video {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .section, .testimonials {
+    margin-top: 30px;
+  }
+  
+  .subHeader {
+    color: #444;
+    margin-bottom: 15px;
+  }
+  .teamPhoto {
+    width: 80%;  
+    height: auto;
+    margin: 20px auto; 
+  }
+  .videoContainer {
+    margin: 20px auto; /* Centers the container horizontally */
+    width: 100%; /* Ensures it fits the container width */
+    max-width: 800px; /* Limits the maximum width, adjust as needed */
+    height: 0; /* Used to maintain aspect ratio */
+    padding-bottom: 56.25%; /* Aspect ratio for 16:9 videos */
+    position: relative; /* Allows absolute positioning of its children */
+    display: flex; /* Enables the use of flexbox for centering */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+  }
+  
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }

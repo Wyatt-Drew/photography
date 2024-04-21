@@ -1,0 +1,47 @@
+.servicesContainer {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  
+  .header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .servicesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service {
+    flex: 1 1 300px; /* Each service block can grow and shrink but bases at 300px */
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #666;
+  }
+  
