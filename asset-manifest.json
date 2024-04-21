@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/photography/static/css/main.2ced984c.css",
+    "main.js": "/photography/static/js/main.8975d164.js",
+    "static/media/commercial-icon.png": "/photography/static/media/commercial-icon.883a5d9e4f94dfb26707.png",
+    "static/media/hero.jpg": "/photography/static/media/hero.883a5d9e4f94dfb26707.jpg",
+    "static/media/portrait-icon.png": "/photography/static/media/portrait-icon.883a5d9e4f94dfb26707.png",
+    "static/media/sample1.jpg": "/photography/static/media/sample1.883a5d9e4f94dfb26707.jpg",
+    "static/media/sample2.jpg": "/photography/static/media/sample2.883a5d9e4f94dfb26707.jpg",
+    "static/media/sample3.jpg": "/photography/static/media/sample3.883a5d9e4f94dfb26707.jpg",
+    "static/media/team.jpg": "/photography/static/media/team.883a5d9e4f94dfb26707.jpg",
+    "static/media/wedding-icon.png": "/photography/static/media/wedding-icon.883a5d9e4f94dfb26707.png",
+    "static/media/wyatt.jpg": "/photography/static/media/wyatt.883a5d9e4f94dfb26707.jpg",
+    "static/media/slick.svg": "/photography/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/photography/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/photography/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/photography/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/photography/index.html",
+    "main.2ced984c.css.map": "/photography/static/css/main.2ced984c.css.map",
+    "main.8975d164.js.map": "/photography/static/js/main.8975d164.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ced984c.css",
+    "static/js/main.8975d164.js"
+  ]
+}
