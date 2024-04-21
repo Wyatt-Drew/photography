@@ -24,13 +24,13 @@ function Contact() {
           <p><strong>Phone:</strong> (123) 456-7890</p>
           <p><strong>Email:</strong> info@saskphotography.com</p>
           <p><strong>Address:</strong> 123 Photography Lane, Creative City, PC 12345</p>
-          {/* Assuming Google Maps embed URL */}
           <iframe
             className={styles.map}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.4860929980555!2d-79.39817348450208!3d43.65322647912133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d0d76faa49%3A0x840d9b1ba4621c4a!2sToronto%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sus!4v1599832405626"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162563.53384196718!2d-104.8002190193597!3d50.458696467976026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x531c1e40fba53deb%3A0x354a3296b77b54b1!2sRegina%2C%20SK!5e0!3m2!1sen!2sca!4v1713712667584!5m2!1sen!2sca"
             allowFullScreen=""
             aria-hidden="false"
             tabIndex="0"
+            style={{ border: 0, width: '100%', height: '250px' }}  
           ></iframe>
         </div>
       </div>
